@@ -1,0 +1,9 @@
+Preprocessor(defines): STM32F769xx     USE_USB_HS               COLOR_DEPTH=16
+				       USE_LCD_HDMI		SCREEN_DOBLE		       
+                                       USE_HAL_DRIVER
+				       USE_STM32F769I_DISCO
+
+Exclusion(files): Libraries/STM32F7xx_HAL_Driver/src/stm32f7xx_hal_msp_template.c
+		  Libraries/STM32F7xx_HAL_Driver/src/stm32f7xx_hal_timebase_rtc_alarm_template.c
+		  Libraries/STM32F7xx_HAL_Driver/src/stm32f7xx_hal_timebase_rtc_wakeup_template.c
+		  Libraries/STM32F7xx_HAL_Driver/src/stm32f7xx_hal_timebase_tim_template.c
